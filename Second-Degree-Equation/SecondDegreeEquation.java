@@ -38,9 +38,9 @@ public class SecondDegreeEquation {
 
     public String resolve(){
         dt = b*b - 4 * a * c;
-        if(dt == 0) return "The equation has double root: " + -b/2*a + ".";
-        else if (dt < 0) return "the equation has no solution.";
-        else return " the equation has two distinct roots: " + (-b + sqrt(dt))/(2 * a) + " and "
+        if(dt == 0) return "Phuong trinh co nghiem kep: " + -b/2*a + ".";
+        else if (dt < 0) return "Phuong trinh vo nghiem.";
+        else return " phuong trinh co 2 nghiem: " + (-b + sqrt(dt))/(2 * a) + " va "
             + (-b - sqrt(dt))/(2 * a) +".";
     }
 }
