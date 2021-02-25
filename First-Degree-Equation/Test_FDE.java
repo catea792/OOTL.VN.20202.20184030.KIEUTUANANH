@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Test_FDE {
     public static void main(String[] args){
         double a,b;
-        System.out.println("Enter the values for the program: ");
+        System.out.println("Nhap a,b: ");
         System.out.print("a =  ");
         a = new Scanner(System.in).nextDouble();
         System.out.print("b = ");
