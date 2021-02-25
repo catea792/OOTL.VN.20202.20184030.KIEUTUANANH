@@ -72,9 +72,9 @@ public class SystemOfFirstDegreeEquations {
         d2 = getA11() * getB2() - getA21() * getB1();
         if (d == 0)
             if (d1 == 0 && d2 == 0)
-                return "The system has infinitely many solutions.";
-            else return "The system has no solution.";
+                return "He phuong trinh co vo so nghiem.";
+            else return "He phuong trinh vo nghiem.";
         else
-            return "The system has a unique solution (x1/x2) = ( " + d1/d + " ," + d2/d + " ).";
+            return "He co nghiem duy nhat (x1/x2) = ( " + d1/d + " ," + d2/d + " ).";
     }
 }
