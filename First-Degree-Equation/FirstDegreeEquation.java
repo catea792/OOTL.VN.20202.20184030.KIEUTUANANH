@@ -24,8 +24,8 @@ public class FirstDegreeEquation {
     }
 
     public String resolve(double a, double b){
-        if (a==0 && b==0) return ("The equation has countless solutions.");
-        else if (a!=0) return ("The equation has the solution: " + -b/a + ".");
-        else return ("The equation has no solution.");
+        if (a==0 && b==0) return ("Phuong trinh vo so nghiem.");
+        else if (a!=0) return ("Phuong trinh co nghiem: " + -b/a + ".");
+        else return ("Phuong trinh vo nghiem.");
     }
 }
